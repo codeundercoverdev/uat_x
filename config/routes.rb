@@ -13,5 +13,7 @@ Rails.application.routes.draw do
   # root "posts#index"
   root 'static_pages#index'
 
+  get 'yolo', to: 'static_pages#about_us'
 
+  get 'contact', to: 'static_pages#contact_us'
 end
