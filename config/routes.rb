@@ -16,4 +16,8 @@ Rails.application.routes.draw do
   get 'yolo', to: 'static_pages#about_us'
 
   get 'contact', to: 'static_pages#contact_us'
+
+
+  resources "tweets"
+
 end
